@@ -17,3 +17,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 Basic API Stucture
 https://flask-restful.readthedocs.io/en/latest/quickstart.html
+
+Swagger API Editor
+https://swagger.io/tools/swagger-editor/
