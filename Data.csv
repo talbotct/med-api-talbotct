@@ -1,0 +1,6 @@
+patientID,name,hospital,temperature,systolicBP,diastolicBP,pulse,oximeter,weight,glucometer
+12345,James Bond,MassGeneral,91.0,120,80,75,98,166,111
+12346,Mr. No,MassGeneral,98.6,120,80,75,98,166,111
+12347,Tim Burr,HarvardMedical,98.6,100,32,100,99,129,123
+12348,Foo Fighter,BUMedical,101.0,111,65,40,100,177,59
+12349,Chili Pepper,MinuteClinic,66,120,77,44,77,222,65
