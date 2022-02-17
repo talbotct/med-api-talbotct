@@ -12,6 +12,9 @@ Current data fields for medical records: userId,name,hospital,temperature,systol
 Currently only supports usage on the localhost and editing of a local .csv file.  Plan on deploying on free AWS services for hosting.
 
 # Resources
+RESTful API Info
+https://cloud.google.com/blog/products/application-development/rest-vs-rpc-what-problems-are-you-trying-to-solve-with-your-apis
+
 API Status Codes
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
