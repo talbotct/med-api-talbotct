@@ -13,7 +13,7 @@ Currently only supports usage on the localhost and editing of a local .csv file.
 
 # Resources
 API Status Codes
-https://restfulapi.net/http-status-codes/
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 Basic API Stucture
 https://flask-restful.readthedocs.io/en/latest/quickstart.html
