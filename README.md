@@ -7,4 +7,6 @@ Currently supports simple REST API actions: Post, Get, Put, Delete
 # Usage
 User can run "api.py" which will launch the Flask app on the localhost.  Then can use API using either a web brower or a tool such as Postman https://www.postman.com/downloads/.
 
+Current data fields for medical records: userId,name,hospital,temperature,systolicBP,diastolicBP,pulse,oximeter,weight,glucometer
+
 Currently only supports usage on the localhost and editing of a local .csv file.  Plan on deploying on free AWS services for hosting.
