@@ -10,3 +10,10 @@ User can run "api.py" which will launch the Flask app on the localhost.  Then ca
 Current data fields for medical records: userId,name,hospital,temperature,systolicBP,diastolicBP,pulse,oximeter,weight,glucometer
 
 Currently only supports usage on the localhost and editing of a local .csv file.  Plan on deploying on free AWS services for hosting.
+
+# Resources
+API Status Codes
+https://restfulapi.net/http-status-codes/
+
+Basic API Stucture
+https://flask-restful.readthedocs.io/en/latest/quickstart.html
