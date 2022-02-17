@@ -26,3 +26,6 @@ https://flask-restx.readthedocs.io/_/downloads/en/latest/pdf/
 
 Swagger API Editor
 https://swagger.io/tools/swagger-editor/
+
+Pandas Dataframe Manipulation
+https://re-thought.com/how-to-change-or-update-a-cell-value-in-python-pandas-dataframe/
