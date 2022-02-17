@@ -18,7 +18,7 @@ https://cloud.google.com/blog/products/application-development/rest-vs-rpc-what-
 API Status Codes
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
-Basic API Stucture
+Flask Basic API Stucture
 https://flask-restful.readthedocs.io/en/latest/quickstart.html
 
 Swagger API Editor
