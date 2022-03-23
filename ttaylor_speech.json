@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "texttospeech-345002",
+  "private_key_id": "669757cc257fca83c2d54eb8137fee7e24fe93ab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC9T5um0BOCrwBI\nBQiUPCal+5nG0l9O65ZGShs5Fqha/Y8zwxIxdlURR5+lftg10+2XhYKNqzEHEKyz\nAzn+iX1MxABkLmjpxLXREsILQa9ZOgPY7OWqcXbRP60IjedIrw3s1XUxvE/7E2th\nKMRcVgA0avwiMwh9RgWiXrpl12CSgpLkZBW/O1RUgublszgRddLiZj9RJkyjNFKe\nTbPUDCf6/MgQPhnVM8IJVTTKy9SjQMVTCuJHGIMDJbovOLIAPxFxSPErxVo3DbKc\n8RvglZ3ut+qMofhGJ8ICLmL0To9lRb2cwx/UIOjdXwOWo7nplVk7yfNB1jLX8mZ8\nJgsuldJ5AgMBAAECggEAFOrLIr0absXZ1NtThZd42L2qUdTUSZLPxZ/yDpaBjx41\nmK1M4RC3WQOuMNnJV3c9aRDMKk2YSvTNdDEe0xBLezQr6+XR20SMJ1f4f0hocMYv\nfyQ7wx+q1nd/7bJKNBZ9hiXWv2JUfwQ4COH5gk9RUflhNwEnBrp6LGTlmROZXM6m\nRau2HFHnf3S/O+L4/R2qpjqN9sJRWR2QaqDdO+u2ulpOSMb4FIbwO5kkSreNWbpS\nkl3GQ4DjOtoqRdUGFApuysFIP8UN7cnavus4AptePuHuSuybl19oqvYtc7b6VMq5\n8LSoLPwthvItabwZIKMB0A9+LUNTWNNyK8joSBkyIQKBgQDxA6HaCGaTLLm8e2Lk\n8VGC9xwCI2K3qbMr95tGgWS8k8+wZoeGa7Q3hPaSXNyXIHc6Xsg3RMOpQ/yzsjrQ\nqJk1F19RItws+spxBVMXBAl+6WJx8M/HtfZZZG99lkWYhavc/PuNkywVq1ldIVFF\nQ6ayKnxLr/YK3B1fAuiePc+4EQKBgQDJFPwLDLY7zwzHyxgb5qlD9vMEK3cFbROb\nyVwJuS33xRKSpPC+02N/OHHVxp0+06RwJBt5fwiqWPeddqBkcl2UHk4HDTjWcwX6\nue/8yh10KyWCMciAnu9peCBwH3Qt+Gz60HUNf4cLa4Q6U0tfS6UMpu7Y2go0Z6qI\n9GXyU8Wb6QKBgFhOCGMmaM7LuFHCs31GnaLqfyyZYnYAi1E0q4OtrQca8SGkr0sk\n8ybUZLNDqt8EWircx2bYnwfJjTEZwErrOxcktRu5NgqU6M94L/Vi2UfSous0XCzE\nErq1/dN5144Gi+2wE0rP/XsDCP8CUhCatNzajCf/FJruAyTon+o6o3zBAoGAUYqA\n6ros6/P6asqg7C+NVFJAGeDGUxz4ZqQw/oBpc6Am9/CK79co8d4hy17PRTrt48vA\nmHQ7P1j0kJYaVKFL8VSYr6Nc+RmLwzDDcO9FImacvz8Q35eT3mEoRk96/WlQSCVg\nUij0yly/Mie02OAD/i1zjdxdZwLi1MbG0I3IBIECgYBjeCwb943Nb/UwOOG3G3tl\nvqbOgx1SRL2a2zqawGsw7LoVtA/Iw2Ahg3C1fcwsx0v3mDgEWwu27ZoEBRYgEuY6\nJmI5g16YrREWAn7+2460Bo3A7rJm7Kv/cOfLMI7STPJskJdWbCNQvRs3/pyaFH3d\nVQ4/OzIK9ZIcPcNXsE/zMQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ttaylor-cloud-speech@texttospeech-345002.iam.gserviceaccount.com",
+  "client_id": "113212244726437142871",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ttaylor-cloud-speech%40texttospeech-345002.iam.gserviceaccount.com"
+}
