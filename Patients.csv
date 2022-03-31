@@ -6,3 +6,5 @@ patientID,name,hospital,temperature,systolicBP,diastolicBP,pulse,oximeter,weight
 12349,Name1,Test,44.0,111.0,11.0,111.0,11.0,111.0,11.0
 12340,e,TestHospital,2323233.0,111.0,11.0,111.0,11.0,111.0,11.0
 11112,Name Name,,,,,,,,
+11112,Name Name2,,,,,,,,
+111123,Name Name222,,,,,,,,

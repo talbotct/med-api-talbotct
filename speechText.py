@@ -2,7 +2,7 @@ import os
 from google.cloud import speech
 
 #set up api permission for speech to text
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'texttospeech-345002-2110f5b8e6b6.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'ttaylor-med-api-3285443a6f89.json'
 speechClient = speech.SpeechClient()
 
 #converts speech to text
