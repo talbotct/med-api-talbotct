@@ -2,19 +2,24 @@
 import pika
 import sys
 
-connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host='localhost'))
+#create pika connection at the local host
+connection = pika.BlockingConnection(pika.ConnectionParameters(host = 'localhost'))
+
+#create channel
 channel = connection.channel()
 
-channel.queue_declare(queue='task_queue', durable=True)
+#create queue as task queue
+#durable means task will be saved even if it does not make it
+channel.queue_declare(queue = 'task_queue', durable = True)
 
-message = ' '.join(sys.argv[1:]) or "default"
-channel.basic_publish(
-    exchange='',
-    routing_key='task_queue',
-    body=message,
-    properties=pika.BasicProperties(
-        delivery_mode=pika.spec.PERSISTENT_DELIVERY_MODE
-    ))
-print("Sent %r" % message)
+#input for audio file name or link
+audioSource = ' '.join(sys.argv[1:])
+
+#publish the task as a message for the receiver
+channel.basic_publish(exchange = '', routing_key = 'task_queue', body = audioSource, properties=pika.BasicProperties(delivery_mode = pika.spec.PERSISTENT_DELIVERY_MODE))
+
+#confirm the task was sent
+print("Sent %r" % audioSource)
+
+#close connection
 connection.close()

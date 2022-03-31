@@ -1,17 +1,20 @@
 import os
 from google.cloud import speech
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'ttaylor_speech.json'
+#set up api permission for speech to text
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'texttospeech-345002-2110f5b8e6b6.json'
 speechClient = speech.SpeechClient()
 
+#converts speech to text
 def speechToText(audioSource):
 
+    #Cloud Hosted Files
     if audioSource.startswith(b'gs:'):
-        #Cloud Hosted Files
-        #cloudURL = 'gs://ttaylor-speech-to-text/testSpeech2.wav'
+        #e.g. cloudURL = 'gs://ttaylor-speech-to-text/testSpeech2.wav'
         rawAudio = speech.RecognitionAudio(uri = audioSource)
+    
+    #Local Files
     else:
-        #Local Files
         #Open file
         with open(audioSource, 'rb') as file:
             audioData = file.read()
@@ -20,18 +23,14 @@ def speechToText(audioSource):
 
 
     #Configue media output
-    configRec = speech.RecognitionConfig(
-        sample_rate_hertz = 48000,
-        enable_automatic_punctuation = True,
-        language_code = 'en-US',
-        audio_channel_count = 2
-        )
+    configRec = speech.RecognitionConfig(sample_rate_hertz = 48000, enable_automatic_punctuation = True, language_code = 'en-US', audio_channel_count = 2)
 
     #Transcribe recAudio object
-    respon = speechClient.recognize(config = configRec, audio = rawAudio)
+    sTOtData = speechClient.recognize(config = configRec, audio = rawAudio)
 
-    print(respon)
+    print(sTOtData)
 
+#testing
 #if __name__ == '__main__':
     #speechToText('gs://ttaylor-speech-to-text/testSpeech2.wav')
     #speechToText('testSpeech1.wav')
