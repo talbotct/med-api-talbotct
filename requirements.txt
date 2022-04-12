@@ -1,12 +1,8 @@
-email
 eventlet
 flask
 flask_restful
 Flask-SocketIO
 flask_session
 google.cloud
-json
-os
 pika
 python-socketio
-time
