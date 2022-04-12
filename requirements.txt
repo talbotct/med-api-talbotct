@@ -1,4 +1,5 @@
 eventlet
+firebase-admin
 flask
 flask_restful
 Flask-SocketIO
